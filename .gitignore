@@ -1,0 +1,7 @@
+data
+.ipynb_checkpoints
+notebooks/catboost_info
+notebooks/1_Data_Exploration_testeo.ipynb
+notebooks/2_Supervised_Learning.ipynb
+.proposal.pdf.zip
+
