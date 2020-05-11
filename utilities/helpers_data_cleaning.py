@@ -17,6 +17,8 @@ from sklearn.metrics import confusion_matrix,precision_recall_fscore_support
 from sklearn.utils.multiclass import unique_labels
 
 def cast_categorical_h2o(hf, h2o_dict):
+    '''Create a custom dictionary to be used in the H2O frames'''
+    
     feat_cols = []
     for a, b in h2o_dict.items(): 
         if b == 'enum':
@@ -29,6 +31,7 @@ def cast_categorical_h2o(hf, h2o_dict):
     return hf
 
 def read_feats(path_read: Path)-> dict:
+    '''Read the information from attributes file'''
     
     df_feats = pd.read_excel(path_read,
                                 header = 1,
