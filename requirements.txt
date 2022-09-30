@@ -11,6 +11,6 @@ xgboost == 1.0.2
 imblearn == 0.6.2
 category_encoders == 2.2.2
 catboost == 0.23
-joblib == 0.14.1
+joblib == 1.2.0
 sklego == 0.4.1
 yellowbrick == 1.1
